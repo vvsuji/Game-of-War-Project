@@ -12,3 +12,10 @@ class Player {
     this.deck = deck;
   }
 }
+
+class Card {
+  constructor(cardValue, value) {
+    this.cardValue = cardValue;
+    this.value = value;
+  }
+}
